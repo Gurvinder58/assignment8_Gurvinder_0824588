@@ -1,0 +1,18 @@
+/* Different background colors for small, medium, and large screens */
+@media (max-width: 654px) {
+    body {
+        background-color:crimson; /* crimson */
+    }
+}
+
+@media (min-width: 655px) and (max-width: 994px) {
+    body {
+        background-color:springgreen; /* springgreen */
+    }
+}
+
+@media (min-width: 995px) {
+    body {
+        background-color:navy; /* navy */
+    }
+}
